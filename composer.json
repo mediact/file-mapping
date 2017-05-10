@@ -26,7 +26,18 @@
   "require-dev": {
     "phpunit/phpunit": "@stable",
     "kint-php/kint": "@stable",
-    "mediact/testing-suite": "@stable"
+    "mediact/testing-suite": "@stable",
+    "mikey179/vfsstream": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mediact\\FileMapping\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mediact\\FileMapping\\Tests\\": "tests"
+    }
   },
   "archive": {
     "exclude": [
