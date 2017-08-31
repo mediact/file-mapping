@@ -1,7 +1,7 @@
 {
   "name": "mediact/file-mapping",
   "description": "File mapping library",
-  "license": "proprietary",
+  "license": "MIT",
   "type": "library",
   "prefer-stable": true,
   "minimum-stability": "stable",
