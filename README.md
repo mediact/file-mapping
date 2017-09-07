@@ -11,9 +11,10 @@ A PHP package for mapping files from one location to another. It is used by the 
 * Create a mapping.
 */
  $mapping = new UnixFileMapping(
-      __DIR__ . '/../templates/files',
+      __DIR__ . '/../folder/files',
       getcwd(),
-      ...$this->getFilePaths()
+      ['./dir/one','./dir/two']
+      
   );
 
 /**
