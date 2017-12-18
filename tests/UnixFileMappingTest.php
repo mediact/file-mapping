@@ -30,6 +30,11 @@ class UnixFileMappingTest extends TestCase
                 'bitbucket-pipelines.yml{.dist,}',
                 'bitbucket-pipelines.yml.dist',
                 'bitbucket-pipelines.yml'
+            ],
+            [
+                '{default/,}bitbucket-pipelines.yml{.dist,}',
+                'default/bitbucket-pipelines.yml.dist',
+                'bitbucket-pipelines.yml'
             ]
         ];
     }
