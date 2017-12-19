@@ -36,7 +36,7 @@ class UnixFileMapping implements FileMappingInterface
         $this->destinationDirectory = $destinationDirectory;
 
         // Expand the source and destination.
-        static $pattern    = '/({(.*),(.*)})/';
+        static $pattern    = '/({(.*?),(.*?)})/';
         $this->source      = preg_replace($pattern, '$2', $mapping);
         $this->destination = preg_replace($pattern, '$3', $mapping);
     }
