@@ -5,6 +5,7 @@
   "type": "library",
   "prefer-stable": true,
   "minimum-stability": "stable",
+  "abandoned": "youwe/file-mapping",
   "authors": [
     {
       "name": "MediaCT B.V.",
